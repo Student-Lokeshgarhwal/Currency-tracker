@@ -1,0 +1,47 @@
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 25px 10%;
+    flex-wrap: wrap;
+    /* background-color: #1a1818; */
+}
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Navbar li{
+    font-size: large;
+    cursor: pointer;
+}
+.Navbar .nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Navbar select{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: larger;
+}
+.Navbar select option{
+    background-color: black;
+    color: white;
+}
+.Navbar button{
+    display: flex;
+    gap: 10px;
+    padding: 3px 10px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+}
