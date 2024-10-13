@@ -7,12 +7,14 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a{
     text-decoration: none;
 }
 .app{
-    background:linear-gradient(rgb(3, 3, 59),rgb(32, 36, 32),rgb(22, 22, 63));
+    /* width: 100vw; */
+    background:linear-gradient(#040444,rgb(41, 56, 86),rgb(22, 22, 63));
     min-height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }

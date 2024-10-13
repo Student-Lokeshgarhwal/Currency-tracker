@@ -6,6 +6,7 @@ import { CoinContext } from '../../context/CoinContext';
 import { PiCurrencyInrBold } from "react-icons/pi"
 import { MdOutlineEuroSymbol } from 'react-icons/md';
 import { IoLogoUsd } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -36,11 +37,13 @@ function Navbar() {
     <>
     <div className="Navbar">
         <div className="logo">
+            <Link to={`/`}>
             <img src={logo} alt="" />
+            </Link>
         </div>
         <div>
             <ul>
-                <li>Home</li>
+               <Link to={`/`}><li>Home</li></Link> 
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>Blog</li>

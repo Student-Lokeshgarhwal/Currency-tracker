@@ -6,7 +6,7 @@
     border-bottom: 1px solid black;
     padding: 25px 10%;
     flex-wrap: wrap;
-    /* background-color: #1a1818; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .Navbar ul{
     display: flex;
@@ -44,4 +44,31 @@
     align-items: center;
     border: 1px solid white;
     border-radius: 20px;
+}
+
+@media (max-width : 992px){
+    .Navbar{
+        padding: 20px 8%;
+    }
+    .Navbar .nav-right{
+        gap: 10px;
+    }
+    .Navbar button{
+        gap: 8px;
+        font-size: 16px;
+    }
+}
+@media (max-width : 872px){
+    .Navbar ul{
+        display: none;
+    }
+}
+@media (max-width : 492px){
+    .Navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
 }
