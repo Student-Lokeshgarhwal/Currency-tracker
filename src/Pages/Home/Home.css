@@ -86,11 +86,11 @@ border-radius: 15px;
 }
 .crypto-layout .green{
     text-align: center;
-    color: green    ;
+    color: rgb(79, 203, 79)    ;
 }
 .crypto-layout .red{
     text-align: center;
-    color: red    ;
+    color: rgb(240, 15, 15)    ;
 }
 @media (max-width : 800px){
     .crypto-layout{

@@ -63,3 +63,11 @@
 .coin-info ul li:last-child{
     font-weight: 300;
 }
+
+@media (max-width : 320px){
+    .coin-chart{
+        max-width: 600px;
+        height: 200px;
+        margin: auto;
+    }
+}
